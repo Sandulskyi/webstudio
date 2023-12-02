@@ -1,0 +1,51 @@
+:root {
+    --background: #2F303A;
+    --hover: #2196F3;
+    --text-color-gray: #212121;
+    --text-color-ight-gray: #757575;
+    --background-color-section-team: #F5F4FA;
+}
+
+.logo {
+    font-family: 'Raleway';
+}
+.logo-footer {
+    font-family: 'Raleway';
+
+}
+.Web {
+    color: #2196F3;
+}
+.Studio {
+    color: black;
+}
+.Studio1 {
+    color: #FFF;
+}
+.btn-list button {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: var(--background-color-section-team);
+}
+.img-list li img {
+    width: 370px;
+    height: 294px;
+}
+.img-list li h3 {
+    color: #212121;
+    font-size: 18px;
+    line-height: 36px;
+}
+.img-list li p {
+    color: #757575;
+    font-size: 16px;
+    line-height: 30px;
+}
+.basement {
+    background-color: var(--background);
+}
+a {
+    text-decoration: none;
+}

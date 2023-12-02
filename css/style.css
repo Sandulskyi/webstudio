@@ -5,3 +5,86 @@
     --text-color-ight-gray: #757575;
     --background-color-section-team: #F5F4FA;
 }
+
+.logo {
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: normal;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.hero {
+    background-color: var(--background);
+}
+.hero-title {
+    color: #FFF;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+}
+.hero-btn {
+    font: 16px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #2196F3;
+    color: #FFF;
+}
+
+.list-list li h2 {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.list-list li p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.work-title {
+    font-size: 36px;
+    line-height: normal;
+}
+.work-list li img {
+    width: 370px;
+    height: 294px;
+}
+.team {
+    background-color: var(--background-color-section-team);
+}
+.team-title {
+    font-size: 36px;
+    line-height: normal;
+}
+.team-list li img {
+    width: 270px;
+    height: 260px;
+}
+.team-list li h3 {
+    font-size: 16px;
+    line-height: normal;
+}
+.team-list li p {
+    color: #757575;
+    font-size: 16px;
+    line-height: normal;
+}
+.basement {
+    background-color: var(--background);
+}
+.logo-footer {
+    font-family: 'Raleway';
+}
+.Web {
+    color: var(--hover);
+}
+.Studio {
+    color: #000;
+}
+.Studio1 {
+    color: #FFF;
+}
+a {
+    text-decoration: none;
+}
