@@ -6,6 +6,17 @@
     --background-color-section-team: #F5F4FA;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline;
+}
+
 .logo {
     font-family: 'Raleway';
     font-size: 26px;
@@ -18,12 +29,14 @@ body {
 
 .hero {
     background-color: var(--background);
+    height: 600px;
 }
 .hero-title {
     color: #FFF;
     font-size: 44px;
     line-height: 2.55;
     text-align: center;
+    padding: 200px 452px 0px;
 }
 .hero-btn {
     font: 16px;
@@ -31,14 +44,18 @@ body {
     text-align: center;
     background-color: #2196F3;
     color: #FFF;
+    margin: 30px 692px 200px 692px;
 }
 
-.list-list li h2 {
+.list-item {
+    display: inline-block;
+}
+.list-title {
     font-size: 14px;
     line-height: normal;
 }
 
-.list-list li p {
+.list-par {
     font-size: 14px;
     line-height: 0.58;
 }
@@ -46,7 +63,10 @@ body {
     font-size: 36px;
     line-height: normal;
 }
-.work-list li img {
+.work-list {
+    display: inline-block;
+}
+.work-item {
     width: 370px;
     height: 294px;
 }
