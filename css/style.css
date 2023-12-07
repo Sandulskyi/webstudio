@@ -22,12 +22,12 @@ body {
 .hero-title {
     color: #FFF;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 2.55;
     text-align: center;
 }
 .hero-btn {
     font: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     text-align: center;
     background-color: #2196F3;
     color: #FFF;
@@ -40,7 +40,7 @@ body {
 
 .list-list li p {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 0.58;
 }
 .work-title {
     font-size: 36px;
