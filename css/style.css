@@ -4,6 +4,7 @@
     --text-color-gray: #212121;
     --text-color-ight-gray: #757575;
     --background-color-section-team: #F5F4FA;
+    --white: #fff;
 }
 
 ul,h1,h2,button,p,h3 {
@@ -20,7 +21,9 @@ a {
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: normal;
 }
 
 .container {
@@ -45,15 +48,26 @@ body {
     gap: 50px;
 }
 
+.header-list-link {
+    color: var(--text-color-gray);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.header-list-link:hover, .header-contacts-link:hover {
+    color: var(--hover);
+}
+
 .header-contacts {
     display: flex;
     gap: 50px;
-    color: #757575;
-    font-family: Roboto;
+}
+
+.header-contacts-link {
+    color: var(--text-color-ight-gray);
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.28px;
 }
 
@@ -78,31 +92,32 @@ body {
 .hero {
     background-color: var(--background);
     padding: 200px 0 200px 0;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-title {
     color: #FFF;
     font-size: 44px;
-    line-height: 2.55;
+    line-height: 1.36;
+    font-weight: 900;
     text-align: center;
-
+    letter-spacing: 2.64px;
 }
 .hero-btn {
     display: block;
     font-size: 16px;
     line-height: 1.8;
-    text-align: center;
     background-color: #2196F3;
-    color: #FFF;
+    color: var(--white);
     margin: 30px auto 0;
     padding: 10px 32px;
     border-radius: 4px;
-    color: #FFF;
-    text-align: center;
-    font-family: Roboto;
-    font-style: normal;
+    border: none;
     font-weight: 700;
     letter-spacing: 0.96px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .features {
@@ -111,7 +126,37 @@ body {
 
 .features-list {
     display: flex;
+    gap: 30px;
 }
+
+.features-item::before {
+    display: inline-block;
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-color-section-team);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features-item:nth-child(1)::before {
+    background-image: url("../images/antenna.svg");
+}
+
+.features-item:nth-child(2)::before {
+    background-image: url("../images/clock.svg");
+}
+
+.features-item:nth-child(3)::before {
+    background-image: url("../images/diagram.svg");
+}
+
+.features-item:nth-child(4)::before {
+    background-image: url("../images/astronaut.svg");
+}
+
 .features-title {
     font-size: 14px;
     line-height: normal;
@@ -190,6 +235,7 @@ body {
     background-color: #FFF;
     padding-bottom: 30px;
     text-align: center;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .team-list li img {
@@ -245,8 +291,22 @@ body {
     display: flex;
     flex-direction: column;
     gap: 9px;
+    font-style: normal;
 }
 
 .contacts {
     font-size: 14px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+.contacts-city {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71; 
+    letter-spacing: 0.42px;
 }
