@@ -6,9 +6,63 @@
     --background-color-section-team: #F5F4FA;
 }
 
+ul,h1,h2,button,p,h3 {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:0 auto;
+}
+
+
+.header {
+    padding: 24px 0 25px 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    gap: 50px;
+}
+
+.header-contacts {
+    display: flex;
+    gap: 50px;
+}
+
+.header-item {
+    display: flex;
+    flex-direction: row;
+}
+
 .logo {
     font-family: 'Raleway';
+    font-size: 26px;
+    line-height: normal;
 }
+
+
 .logo-footer {
     font-family: 'Raleway';
 
@@ -22,30 +76,80 @@
 .Studio1 {
     color: #FFF;
 }
-.btn-list button {
-    color: #000;
-    text-align: center;
-    font-size: 16px;
-    line-height: 0.61;
-    background-color: var(--background-color-section-team);
+
+.filters {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin: 94px 0 50px 0;
 }
-.img-list li img {
-    width: 370px;
-    height: 294px;
+
+.project-list {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 94px;
 }
-.img-list li h3 {
+
+.project-list-item {
+    border: 1px solid #EEE;
+    background-color: #FFF;
+    padding-bottom: 20px;
+}
+
+.project-list-img {
+    margin-bottom: 20px;
+}
+
+.project-list-title, .project-list-text {
+    padding-left: 24px;
     color: #212121;
+    font-family: Roboto;
+    font-style: normal;
     font-size: 18px;
-    line-height: 0.5;
+    line-height: 36px; /* 200% */
+    font-weight: 700;
+    letter-spacing: 1.08px;
 }
-.img-list li p {
+
+.project-list-text {
     color: #757575;
+    font-family: Roboto;
     font-size: 16px;
-    line-height: 0.53;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.48px;
 }
-.basement {
+
+.footer {
     background-color: var(--background);
+    padding: 60px 0 60px 0;
 }
-a {
-    text-decoration: none;
+.logo-footer {
+    font-family: 'Raleway';
+    display: block;
+    font-size: 26px;
+    margin-bottom: 20px;
 }
+.Web {
+    color: var(--hover);
+}
+.Studio {
+    color: #000;
+}
+.Studio1 {
+    color: #FFF;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.contacts {
+    font-size: 14px;
+}
+
