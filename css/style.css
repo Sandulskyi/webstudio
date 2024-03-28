@@ -2,9 +2,19 @@
     --background: #2F303A;
     --hover: #2196F3;
     --text-color-gray: #212121;
-    --text-color-ight-gray: #757575;
+    --text-color-ight-grey: #757575;
     --background-color-section-team: #F5F4FA;
     --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 ul,h1,h2,button,p,h3 {
@@ -75,7 +85,7 @@ body {
     display: flex;
     flex-direction: row;
     color: #212121;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
